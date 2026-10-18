@@ -1,0 +1,738 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 10px;
+}
+.blue{
+    color: rgb(2, 159, 180);
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header .logo h2{
+    color: rgb(2, 159, 180);
+    font-family: 'Handlee', cursive;
+}
+header .link a{
+    text-decoration: none;
+    color: rgb(4, 26, 52);
+    
+}
+header input[type=button]{
+    background-color: rgb(2, 159, 180);
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#home{
+    color: rgb(2, 159, 180);
+}
+/* section */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(2, 159, 180);
+    height: auto;
+}
+/* .main .one{
+
+} */
+.main .one h3{
+    color: whitesmoke;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+    font-weight: 200px;
+}
+.main .one h1{
+    color: whitesmoke;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: 'Handlee', cursive;
+    font-weight: 200;
+}
+.main .one p{
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main input[type=button]{
+    background-color: rgb(19, 45, 77);
+    border: none;
+    border-radius: 40px;
+    color: whitesmoke;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+/*  two */
+.main .two img{
+    width: 400px;
+    height: 400px;
+}
+
+/* things */
+.facility ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.facility ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 20px; 
+    list-style-type: none;
+    border: 1px transparent;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 30%;
+}
+
+.facility ul li i {
+    font-size: 35px;
+    color: rgb(2, 159, 180);
+}
+.facility ul li span h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: rgb(4, 26, 52);
+}
+
+.facility ul li span p {
+    color: gray;
+    line-height: 1.5;
+}
+/* about us */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+.about-main img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+.about-content h3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.line{
+    background-color: rgb(2, 159, 180);
+    width: 50px;
+    height: 1px;
+}
+.about-content h2{
+    color: rgb(4, 26, 52);
+    font-family: 'hadnlee', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.about-content p{
+    color: grey;
+}
+.about-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.about-kid{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-in div ul li{
+    list-style-type: none;
+}
+.about-in div ul li p{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.about-in div ul li hr{
+    color: grey;
+}
+.kid-btn input{
+    background-color: rgb(2, 159, 180);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.about-in div ul li p span{
+    color: rgb(2, 159, 180);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Popular classes */
+.popular{
+    text-align: center;
+}
+.popular h3{
+    color: rgb(2, 159, 180);
+    font-family: 'handlee';
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.popular h2{
+    font-family: cursive;
+    font-weight: lighter;
+    color: rgb(19, 45, 77);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.popular-content{
+    flex: 1;
+    text-align: center;
+    max-width: 300px;
+    background-color: rgba(224, 255, 255, 0.393);   
+}
+.popular-content img{
+    width: 100%;
+}
+.popular-content h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'handlee', cursive;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgb(19, 45, 77);
+}
+.popular-content p{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+}
+.popular-content ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.popular-content ul li{
+    display: flex;
+    color: gray;
+    border-bottom: 1px solid lightgrey;
+    padding: 2px;
+}
+.popular-content ul li span{
+    flex: 1;
+    color: gray;
+    font-weight: lighter;
+}
+.popular-content ul li strong{
+    flex: 1;
+    color: grey;
+    font-weight: lighter;
+    border-right: 1px solid lightgrey;
+}
+.popular-content input[type=button]{
+    background-color: rgb(2, 159, 180);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* book */
+.book {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.book-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    max-width: 500px; 
+}
+
+.book-content h3 {
+    color: rgb(2, 159, 180);
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+    font-family: 'handlee', cursive;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.line {
+    background-color: rgb(2, 159, 180);
+    width: 50px;
+    height: 1.5px;
+}
+
+.book-content h2 {
+    color: rgb(4, 26, 52);
+    font-family: 'handlee', cursive; 
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.book-content p {
+    color: grey;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.book-in {
+    width: 100%;
+}
+
+.book-in div ul {
+    padding: 0;
+    margin: 0;
+}
+
+.book-in div ul li {
+    list-style-type: none;
+}
+
+.book-in div ul li hr {
+    border: none;
+    border-top: 1px solid lightgrey;
+}
+
+.book-in div ul li p {
+    padding: 1px 0; 
+}
+
+.book-in div ul li p span {
+    color: rgb(2, 159, 180);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.kid-btn {
+    margin-top: 15px;
+}
+
+.kid-btn input {
+    background-color: rgb(2, 159, 180);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.book-seat {
+    background-color: rgb(2, 159, 180);
+    width: 350px;
+}
+
+
+.book-seat h2 {
+    background-color: rgb(4, 26, 52);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0; 
+}
+
+.book-seat form {
+    padding: 25px; 
+}
+.book-seat input[type="text"],
+.book-seat input[type="email"],
+.book-seat select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.book-btn {
+    background-color: rgb(19, 45, 77);
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+/* our teachers */
+.teacher{
+    text-align: center;
+    margin-top: 70px;
+}
+.teacher h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+
+.team{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.teacher h2{
+    color: rgb(4, 26, 52);
+    font-size: 35px;
+    font-family: 'handlee', cursive;
+    font-weight: lighter;
+}
+.team li{
+    margin-top: 40px;
+}
+.team li img{
+    border-radius: 50%;
+}
+.team li h4{
+    color: rgb(19, 45, 77);
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'handlee', cursive;
+    font-weight: lighter;
+}
+.team li span{
+    color: grey;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* testimonial */
+.test{
+    text-align: center;
+    margin-top: 70px;
+}
+.test h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.test h2{
+    color: rgb(4, 26, 52);
+    font-size: 35px;
+    font-family: 'handlee', cursive;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.box ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+.box ul li p{
+    background-color: rgba(211, 211, 211, 0.147);
+    border: none;
+    border-radius: 5px;
+}
+.box ul li i{
+    color: rgb(2, 159, 180);
+    font-size: 40px;
+    margin-right: 5px;
+}
+.box ul li div{
+    display: flex;
+}
+.box ul li div img{
+    border: none;
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+}
+.box ul li div span h2{
+    color: rgb(19, 45, 77);
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: 'handlee', cursive;
+}
+.box ul li div span h4{
+    color: grey;
+    font-weight: lighter;
+    margin-right: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.dots span {
+    width: 12px;
+    height: 12px;
+    background: #ddd;
+    border-radius: 50%;
+}
+.dots .active {
+    background: rgb(2, 159, 180);
+}
+
+/* blog */
+
+
+.blog {
+    text-align: center;
+    padding: 80px 20px;
+}
+.blog-h p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.blog-h h2{
+    color: rgb(19, 45, 77);
+    font-family: 'handlee', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.blog-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.blog-card {
+    width: 350px;
+    background-color: rgba(211, 211, 211, 0.284);
+    box-shadow: 4px 8px 16px rgb(0, 0, 0, 0.2);
+}
+.blog-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.blog-card h3 {
+    color: #202C45;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.blog-card p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.blog-meta {
+    display: flex;
+    gap: 15px;
+    font-size: 13px;
+    color: rgb(2, 159, 180);
+}
+.blog-meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.blog-btn{
+    background-color: rgb(2, 159, 180);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* footer */
+.footer {
+    background: rgb(24, 60, 89);
+    color: #fff;
+    padding-top: 80px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+    gap: 30px;
+}
+.footer-col {
+    width: 250px;
+}
+.footer-col h3 i{
+    color: rgb(2, 159, 180);
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.footer-col h3{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.footer-col p {
+    color: #ccc;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+}
+.footer-socials {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.footer-socials i {
+    width: 35px;
+    height: 35px;
+    background: rgb(24, 60, 89);
+    color: rgb(2, 159, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid rgb(2, 159, 180);
+    cursor: pointer;
+}
+.footer-col a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.footer-col a:hover {
+    color: rgb(2, 159, 180);
+}
+.footer-col a i {
+    margin-right: 10px;
+}
+.footer-col input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    background: whitesmoke;
+    color: #fff;
+    border-radius: 3px;
+}
+.footer-col button {
+    width: 100%;
+    padding: 12px;
+    background: rgb(2, 159, 180);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.footer-bottom {
+    background: rgb(24, 60, 89); 
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+    font-size: 14px;
+    border-top: 1px solid rgba(2, 159, 180, 0.679);
+    padding-top: 50px;
+}
+.footer-bottom a {
+    color: rgb(2, 159, 180);
+    text-decoration: none;
+}
+.footer span input{
+    background-color: rgb(2, 159, 180);
+    border: none;
+    color: whitesmoke;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+.footer span{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* screen media */
+@media (max-width: 768px) {
+    
+    header, .main, .about, .about-in, .book, .team, .box ul {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 30px;
+        padding: 20px 10px;
+    }
+
+    header .link {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin: 15px 0;
+    }
+
+    .main .one h3, .main .one h1, .main .one p, .main input[type=button] {
+        margin-left: 0;
+    }
+
+    .main .two img, .about-main img, .book-seat {
+        width: 100%;
+        height: auto;
+        max-width: 350px; 
+    }
+
+    .facility ul li {
+        width: 100%;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+
+    .book-content, .about-content {
+        align-items: center; 
+    }
+
+    .footer-col {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer-socials {
+        justify-content: center;
+    }
+}
